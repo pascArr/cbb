@@ -1,0 +1,596 @@
+/** GLOBAL STYLES **/
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #330033;
+  /* This property comes from google.com/fonts*/
+  font-family: 'Rokkitt', serif;
+  font-weight:400;
+}
+
+/** HEADER **/
+#header-nav {
+  /*background-color: #a3d5d3;*/
+  background-color:#aaaa99;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/meiLogo250.png') no-repeat;
+  width: 250px;
+  height: 200px;
+  margin: 25px 15px 10px 0;
+}
+
+.navbar-header {
+
+  height:220px;
+
+}
+.navbar-brand {
+  padding: 25px 25px 25px 25px;
+
+}
+
+.navbar-brand h1 { /* Landing Page Opening */
+  
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left:45px;
+  line-height: 1.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* CLOUD certified */
+  color: white;
+  text-transform: uppercase;
+  font-size: .80em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* cloudStamp */
+  vertical-align: middle;
+  /*padding-top: .85em;*/
+}
+
+
+/** HEADER / NAVIGATION LIST **/
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  font-size: 1.2em;
+  text-align: center;
+  color:#263238;
+}
+
+#nav-list a:hover {
+  
+  background-color:#8BC34A;
+
+}
+
+#nav-list a span {
+
+  font-size:1.8em;
+}
+
+
+#statement a span { 
+
+  margin-top:5px;
+  text-align: right;
+  padding: 15px 15px 0 0;
+  font-size:12px;
+  color:white;
+  font-weight:100;
+}
+
+/*#phone div {
+  color: #263238;
+  text-align: right;
+  padding-right: 15px;
+  font-size:1.2em;
+}*/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid green;
+  background-color:#ddd;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/**HEADER END**/
+
+/**HOME PAGE**/
+
+#produce-tile, #product-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 3px solid #3F0C1F;
+  border-bottom: 6px solid #3F0C1F;
+  overflow: hidden;
+}
+#produce-tile:hover, #product-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#produce-tile {
+  background: url('../images/produce.jpeg') no-repeat;
+  background-position: center;
+}
+#product-tile {
+  background: url('../images/product.jpeg') no-repeat;
+  background-position: center;
+}
+
+#produce-tile span, #product-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  
+
+}
+
+/**HOME PAGE END**/
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  height:230px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+
+}
+#org, #address {
+  line-height: 2;
+  text-align:center;
+}
+#org > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+  
+}
+#contact {
+  width:300px;
+  margin:0px 0px 0px 30px;
+}
+#contact p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+/* RESPONSIVE ELEMENTS */
+
+@media (min-width: 1200px){
+
+
+  .container .jumbotron {
+    background: url('../images/??????') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px  #d2e8bf;
+    border: 2px solid #aad489;
+    padding-color:#eaf4e0;
+
+    
+  }
+
+  /*#produce-tile, #product-tile{
+    width:360px;
+    margin: 0 auto 15px;
+    
+  }*/
+  #address {
+    margin-left:50px;
+  }
+  #address span {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-left:0px;
+    text-align: center;
+  }
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+    margin-left:0px;
+    text-align: center;
+}
+
+  #contact {
+    font-style: italic;
+    width:300px;
+    margin-left:75px;
+  }
+  #contact p:nth-child(2) {
+    margin-top: 25px;
+  }
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+ 
+
+}
+
+/*Ipad*/
+
+@media (min-width: 992px) and (max-width: 1199px ){
+
+.navbar-header {
+  height:200px;
+} 
+
+.navbar-brand h1 { /* Landing Page Opening */
+  
+  color: #ffffff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left:30px;
+  line-height: 1.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#logo-img {
+  background: url('../images/meiLogo250.png') no-repeat;
+  width: 250px;
+  height: 200px;
+  margin: 25px 15px 10px 0;
+}
+
+#nav-list{
+
+  font-size:12px;
+}
+
+
+  .container .jumbotron {
+    background: url('../images/lettuce-992.jpeg') no-repeat;
+    height: 523px;
+    box-shadow: 0 0 50px  #d2e8bf;
+    border: 2px solid #aad489;
+    padding-color:#eaf4e0;
+}
+
+  #produce-tile, #product-tile{
+
+    width:300px;
+    margin: 15px auto 15px;
+    
+  }
+
+  #map-tile{
+
+    width:300px;
+    margin: 15px auto 15px;
+
+  }
+
+  #address {
+    margin-left:5%;
+  }
+  #address span {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+    text-align: center;
+}
+
+  #testimonials {
+    font-style: italic;
+    width:300px;
+    margin-left:2.5%;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+.panel-footer {
+  
+  height:250px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+
+/*class="navbar-header VS. container"*/
+.container {
+
+  height:115px;
+
+}
+
+.navbar-brand p img { /* cloud certified*/ 
+    height: 45px;
+  }
+
+#logo-img {
+  background: url('../images/FlowerSeriesLOGOsmall.png') no-repeat;
+  width: 90px;
+  height: 90px;
+  margin: 5px 5px 5px 0;
+}
+
+#statement a { /*statement */
+  text-align: right;
+  padding-bottom: 0;
+  font-size:.85em;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+  font-size:.55em;
+}
+
+
+  .container .jumbotron {
+    background: url('../images/lettuce-768.jpeg') no-repeat;
+    height: 425px;
+    box-shadow: 0 0 50px  #d2e8bf;
+    border: 2px solid #aad489;
+    padding-color:#eaf4e0;
+
+}
+
+#produce-tile, #product-tile{
+
+    width:345px;
+    margin: 0 auto 15px;
+    
+  }
+
+
+  
+/* Footer */
+  .panel-footer {
+    height:300px;
+  }
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 75%;
+  }
+  
+  #address {
+    margin-left:5%;
+    }
+  #address span {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+    }
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  #testimonials {
+    font-style: italic;
+    width:150px;
+    margin-left:2.5%;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+    }
+
+
+
+}
+
+@media (max-width: 767px) and (min-width: 480px ) {
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* beauty and food */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* cloud certified */
+    font-size: 2vw;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* cloud certified */
+    height: 35px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+
+  .container .jumbotron {
+    margin-top:15px;
+    padding:0px 0px 0px 0px;
+    box-shadow: 0 0 50px  #d2e8bf;
+    border: 2px solid #aad489;
+    padding-color:#eaf4e0;
+
+}
+
+
+ #produce-tile, #product-tile{
+
+    width:360px;
+    margin: 15px auto 15px ;
+
+  }
+
+#map-tile{
+
+    width:360px;
+    margin: 15px auto 15px ;
+
+  }
+
+
+
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+
+/* Footer */
+  
+  .panel-footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #222;
+  border-top: 0;
+  height:31em;
+}
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+
+  }
+  .panel-footer section hr {
+    width: 75%;
+  }
+
+
+#testimonials {
+    font-style: italic;
+    width:90%;
+    margin:0% 5% 0% 5%;
+  }
+
+
+  /* End Footer */
+
+}
+
+/* For super extra small devices (i.e. iphone 5) */
+@media (max-width: 479px){
+
+  
+
+  .container .jumbotron {
+    margin-top:15px;
+    padding:0px 0px 0px 0px;
+    box-shadow: 0 0 50px  #d2e8bf;
+    border: 2px solid #aad489;
+    padding-color:#eaf4e0;
+
+}
+
+
+  #produce-tile, #product-tile, #map-tile {
+
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  #statement a { /*statement */
+  text-align: right;
+  padding-bottom: 5px;
+  font-size:.85em;
+}
+
+ 
+  .panel-footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #222;
+  border-top: 0;
+  height:31em;
+}
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+
+  }
+  .panel-footer section hr {
+    width: 75%;
+  }
+
+
+#testimonials {
+    font-style: italic;
+    width:90%;
+    margin:0% 5% 0% 5%;
+  }
+
+
+  /* End Footer */
+
+
+}

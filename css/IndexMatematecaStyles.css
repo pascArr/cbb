@@ -1,0 +1,443 @@
+/** GLOBAL STYLES **/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*ADOBE TYPE KIT FONTS*/
+
+/*SLAB UPPERCASE*/
+h1 .opening {font-family: flood-std, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+/*HAND WRINTING*/
+
+h2 .opening{
+font-family: blambot-pro, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+#opening{
+font-family: blambot-pro, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+  
+
+  background-color: #42233e;
+  overflow-x: hidden;
+  height:1200px;
+  
+}
+
+
+img { 
+  max-width: 100%; 
+  background-size: cover;
+  text-align:center;
+}
+
+h2 {
+      font-size: 18px;
+      /*text-transform: uppercase;*/
+      /*color: #303030;*/
+      font-weight: 600;
+      margin-bottom: 30px;
+
+  }
+
+h3{
+   line-height: 1.5px;
+    font-size:1.5em ;
+    color:#4F4F4F;
+}
+
+h4 {
+      font-size: 1.2em;
+      line-height: 1.375em;
+      color: #4F4F4F;
+      font-weight: 400;
+      margin: 12px 15px 18px 21px;
+      text-align:left;
+  }
+
+
+/*.container-fluid {
+      padding: 60px 50px;
+  }*/
+
+
+
+h2.quotation{
+  font-size:1.2em;
+  font-family: Roboto;
+  font-weight:100;
+  color:white;
+  letter-spacing: 0.05em;
+  text-align:right;
+  display:inline-block;
+  padding-right:0.5em;
+  margin-right:5%;
+
+}
+
+h2.titulo {
+  color:#1D1D30;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size:2.1em;
+}
+
+  
+h3.titulo{
+  color:#1D1D30;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size:1.8em;
+}
+
+  
+h4.titulo{
+  color:#1D1D30;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size:1.5em;
+}
+/*
+div.fullWidth {
+  width: 100%;
+}
+
+main {
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+p, figure {
+  margin: 15px 0;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 3px 3px;
+    }
+
+
+.logo-img {
+  background: url('../images/logo75.png') no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 5px 5px 5px 2px;
+
+}
+
+
+#header-nav {
+  background-color:#ecece2;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 1px;
+  text-align:left;
+}
+
+#nav-list a {
+  font-size: 1.2em;
+  text-align: left;
+  color:#263238;
+}
+
+#nav-list a:hover {
+  
+  background-color:#bbb5e2;
+
+}
+
+#nav-list a span {
+
+  font-size:1.8em;
+  align-content:center;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #263238;
+  background-color:#ddd;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  margin-right:10%;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+  text-align:left;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+  text-align:center;
+}
+
+.navbar-collapse {
+
+  float:right;
+  margin-top:0px;
+  text-align:left;
+
+
+}
+
+.navbar-fixed-top .navbar-collapse {
+    /*max-height: 65px;
+    */ 
+    max-width:100%;
+}
+
+
+
+#section{
+  font-size:0.9em;
+  height:1.5em;
+  padding:.2em;
+  margin:-120px 0px 1px 0px;
+  text-align:right;
+}
+
+.objetivo {
+  background-color: #F0FFE4;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align:center;
+  
+
+
+
+  }
+
+.vision{
+      background-color: #88D9C2;
+      line-height: 1.5px;
+
+  }
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+ 
+  font-size: 62px;
+  margin: 3px;
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  padding: 25px;
+  margin-top: -5px; 
+  text-align: center;
+}
+
+.jumbotron {
+      background-color: #7fb259;
+      color: #fff;
+      margin: 55px 0px 0px 0px;
+      padding: 50px 25px;
+      /*font-family: Montserrat, sans-serif;*/
+      padding-top:10%;
+      font-family: flood-std, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+  }
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+}  
+
+.col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+}
+
+.col-xs-12 .col-sm-4 .col-md-4{
+      text-align: center;
+      margin: 25px 0;
+      font-size:0.8em;
+}
+
+/*CAROUSEL*/
+
+.objetivo {
+  background-color: #F0FFE4;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align:center;
+
+
+  }
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #42233e;
+}
+
+.carousel-indicators li {
+    border-color: #42233e;
+}
+
+.carousel-indicators li.active {
+    background-color: #42233e;
+}
+
+.item h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 35px 1px 1px 70px;
+}
+
+.item span {
+  color:#1D1D30;
+  font-weight: 300;
+  font-family: Roboto;
+  font-size:1em;
+}
+
+.spacer {
+  margin: 35px 1px 1px 70px;
+
+}
+
+
+
+
+
+@media (min-width: 600px) {
+  
+  #section{
+  height:1.5em;
+  padding:.5em;
+  margin:-120px 1px 0px 1px;
+  text-align:right;
+}
+
+
+
+.jumbotron {
+      
+     
+      margin: 55px 0px 0px 0px;
+      padding: 50px 25px;
+      
+      padding-top:10%;
+  }
+
+
+
+
+}
+
+@media (min-width: 800px) {
+
+
+ 
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+  }
+  
+
+.jumbotron {
+      
+      
+      margin: 30px 0px 0px 0px;
+      padding: 50px 25px;
+      
+      padding-top:10%;
+  }
+  
+
+
+
+  .navbar-brand {
+    float: left;
+    height: 3.5em;
+    padding: 1em;
+    }
+
+
+  
+#section{
+  font-size:1.2em;
+  height:65px;
+  padding:1px;
+  margin:-130px 15px 0px 0px;
+  text-align:right;
+
+}
+
+#offset{
+  margin-top: 65px;
+}
+
+.objetivo {
+  background-color: #F0FFE4;
+  /*margin-right: 15px;
+  margin-left: 15px;*/
+  text-align:center;
+  padding:15px 0px 10px 0px;
+  
+
+
+
+}
+
+

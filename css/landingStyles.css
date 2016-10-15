@@ -1,0 +1,1357 @@
+/** GLOBAL STYLES **/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+  
+
+  background-color: #42233e;
+  overflow-x: hidden;
+  
+}
+
+
+img { 
+  max-width: 100%; 
+}
+
+main {
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+p, figure {
+  margin: 15px 0;
+}
+
+#makeDonation{
+    margin: 0;
+    font-size: 3em;
+    color: #9c1239;
+    max-width: 720px;
+    line-height: 1.2em;
+    font-weight:100;
+}
+
+.logo-img {
+  background: url('../images/meiLogo190x90.png') no-repeat;
+  width: 195px;
+  height: 95px;
+  margin: 12px 12px 10px 0;
+
+}
+
+
+#header-nav {
+  background-color:#ecece2;
+  border-radius: 0;
+  border: 0;
+}
+
+
+#section{
+  height:350px;
+  padding:10px;
+}
+
+
+
+
+
+/**
+
+.bgimage {
+
+background-size: 100%; 
+max-width:100% \9;
+height:auto;
+
+}
+
+.bgimage-inside{
+padding-top:48%;
+
+}
+  
+**/
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+ 
+  font-size: 62px;
+  margin: 3px;
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  padding: 25px;
+  margin-top: -5px; 
+  text-align: center;
+}
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.85em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+.center-block {  
+  display: inline-block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}  
+
+
+form {
+  align-content: center;
+  display: inline-block;  
+  margin-right: auto;  
+  margin-left: auto;  
+
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen 
+  and (min-device-width: 1601px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+#offset{
+  margin-top: 130px;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:300px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+  
+
+.navbar-header {
+  height:130px;
+  padding-top: 1px;
+
+}  
+
+.container {
+    width: 100%;
+
+}    
+
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 40px 10px 15px 15px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen 
+  and (min-device-width: 1281px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+#offset{
+  margin-top: 90px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo190x90.png') no-repeat;
+  width: 195px;
+  height: 95px;
+  margin: 2px 1px 2px 0;
+
+
+}
+
+.navbar-header {
+  height:120px;
+  padding-top: 5px;
+
+}  
+
+.navbar-brand{
+  padding: 2px 7px 7px 5px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 2em;
+  margin: 1px;
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  padding: 0;
+  margin-top: -5px; 
+  text-align: center;
+}
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:10px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- Galaxy Tables -----------------------------*/
+
+@media screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+.navbar-brand{
+  padding: 2px 7px 7px 15px;
+
+}
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+ 
+  font-size: 300%;
+  margin: 1px;
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  padding: 0;
+  margin-top: -5px; 
+  text-align: center;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+
+
+/**
+#offset{
+  margin-top: 80px;
+}
+
+.navbar-brand{
+  height:80px;
+  padding:10px 5px;
+}
+
+
+.logo-img{
+  background: url('../images/meiLogo125.png') no-repeat;
+  height:110px;
+  width: 200px;
+  margin: 1px 5px 1px 0;
+
+}
+.img-responsive{
+  max-width:100%;
+  padding: 10px 10px 0px 0px;
+}
+
+.navbar-header {
+
+  height:60px;
+}
+
+h1.section-heading {
+    font-size: 2em;
+
+}
+
+
+}
+**/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------- LG Optimus --------------------------*/
+
+@media only screen 
+  and (min-device-width: 569px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 1)
+
+
+ {
+
+p{
+  font-size:1em;
+  color:white;
+}
+
+
+
+#offset{
+  margin-top: 35px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 120px;
+  height: 75px;
+  margin: 0 1px 0 5px;
+}
+
+figure.full-width {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height:80px;
+  width: 320px;
+  margin-bottom:none;
+  padding-top: 1px;
+
+}  
+
+#section{
+  height:65px;
+  padding:5px;
+  margin-bottom:15px;
+}
+
+.navbar-brand{
+  padding: 1px 2px 1px 3px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 1.3em;
+  padding: 1px 1px 1px 1px;
+  z-index: 2;
+  position: relative;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  margin: 1px 1px 1px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.65em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------- LG Optimus --------------------------*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 1)
+
+
+ {
+
+p{
+  font-size:1em;
+  color:white;
+}
+
+
+
+#offset{
+  margin-top: 35px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 120px;
+  height: 75px;
+  margin: 0 1px 0 5px;
+}
+
+figure.full-width {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height:80px;
+  width: 320px;
+  margin-bottom:none;
+  padding-top: 1px;
+
+}  
+
+#section{
+  height:65px;
+  padding:5px;
+  margin-bottom:15px;
+}
+
+.navbar-brand{
+  padding: 1px 2px 1px 3px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 1.3em;
+  padding: 1px 1px 1px 1px;
+  z-index: 2;
+  position: relative;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  margin: 1px 1px 1px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.65em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- iPad1 & iPad2 -------------------------------------*/
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+#offset{
+  margin-top: 65px;
+}
+
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 195px;
+  height: 75px;
+  margin: 2px 1px 2px 0;
+
+
+}
+
+.navbar-header {
+  height:85px;
+  padding-top: 5px;
+
+}  
+
+.navbar-brand{
+  padding: 2px 7px 5px 15px;
+
+}
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+ 
+  font-size: 2em;
+  margin: 1px;
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  padding-left: 10px ;
+  margin-top: -25px; 
+  text-align: center;
+}
+
+#section{
+  height:75px;
+  padding:5px;
+
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+  and (min-device-width: 569px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+p{
+  font-size:1em;
+  color:white;
+}
+
+
+
+#offset{
+  margin-top: 25px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 120px;
+  height: 75px;
+  margin: 0 1px 0 5px;
+}
+
+figure.full-width {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height:80px;
+  width: 320px;
+  margin-bottom:none;
+  padding-top: 1px;
+
+}  
+
+#section{
+  height:65px;
+  padding:5px;
+}
+
+.navbar-brand{
+  padding: 1px 2px 1px 3px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 2em;
+  padding: 1px 1px 1px 1px;
+  z-index: 2;
+  position: relative;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  margin: 1px 1px 10px 1px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.65em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+
+   {
+
+p{
+  font-size:1em;
+  color:white;
+}
+
+
+
+#offset{
+  margin-top: 45px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 120px;
+  height: 75px;
+  margin: 0 1px 0 5px;
+}
+
+figure.full-width {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height:80px;
+  width: 320px;
+  margin-bottom:none;
+  padding-top: 1px;
+
+}  
+
+#section{
+  height:65px;
+  padding:5px;
+  margin-bottom:15px;
+}
+
+.navbar-brand{
+  padding: 1px 2px 1px 3px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 1.3em;
+  padding: 1px 1px 1px 1px;
+  z-index: 2;
+  position: relative;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  margin: 1px 1px 1px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.65em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+
+.paypal{
+  
+  margin:auto;
+  margin-top:20px;
+  max-width:210px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  border-radius: 17px;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- Super Tiny Devices --------------------------*/
+
+@media only screen and (max-width: 319px){
+
+
+html {
+  overflow:auto;
+}
+
+p{
+  font-size:1em;
+  color:white;
+}
+
+
+
+#offset{
+  margin-top: 35px;
+}
+
+.logo-img {
+  background: url('../images/meiLogo144x71.png') no-repeat;
+  width: 120px;
+  height: 75px;
+  margin: 0 1px 0 5px;
+}
+
+figure.full-width {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  height:75px;
+  width: 320px;
+  margin-bottom:none;
+  padding-top: 1px;
+
+}  
+
+#section{
+  height:95px;
+  padding:5px;
+}
+
+.navbar-brand{
+  padding: 1px 2px 1px 3px;
+
+}
+
+
+
+h1.section-heading {
+  font-family: 'Rokkitt';
+  color:    #F5F5F5;
+  text-shadow: rgba(0,0,0,0.7) -1px 0, rgba(0,0,0,0.5) 0 -1px, rgba(255,255,255,0.7) 0 1px, rgba(0,0,0,0.5) -1px -2px;;
+  font-size: 1.3em;
+  padding: 1px 1px 1px 1px;
+  z-index: 2;
+  position: relative;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  margin: 1px 1px 1px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+
+p.disclaimer {
+
+  font-family:"Roboto";
+  padding: 1% 1% 1% 2%;
+  font-size:.65em;
+  font-weight:100;
+  color:  #f2f2f2;
+
+}
+
+
+.img-responsive{
+  max-width:100%;
+  padding: 20px 10px 15px 15px;
+}
+
+
+}
+
+
+
+
+
