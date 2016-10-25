@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head runat="server">
 <title>Castle Blast Buffet</title>
@@ -11,7 +11,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
-<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -23,86 +24,6 @@
   };
   firebase.initializeApp(config);
 </script>
-
-<script src="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.js"></script>
-<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.css" />
-
-</head>
-
-<!--
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg-1 {
-    background-image: url('https://github.com/pascArr/cbb/tree/gh-pages/images/Reception_large2.jpeg');
-    
-    background-image: url('../images/Reception_large.jpeg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-</style>
-<body>
-
-<div class="bgimg-1 w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    CASTLE BLAST BUFFET
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top" style="text-align:center">COMING SOON</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">35 days left</p>
-
-
-<div class="container">
-<div class="container" style="text-align:center;">
-  <input id="txtEmail" type="email" placeholder="Email">
-  <input id="txtPassword" type="password" placeholder="Password">
-</div>
-<div class="container" style="text-align:center;">
-    
-    <button id="btnLogin" class="btn btn-action">Log in</button>
-
-    <button id="btnSignUp" class="btn btn-secondaty">Sign Up</button>
-
-    <button id="btnLogout" class="btn btn-action hide">Log out</button>
-
-</div>
-
-</div>
-
-</div>
-
-  
-
-
-
-<script src='../app.js'></script>
-
-
-
-
-
-
-
-
-
-
-  <div class="w3-display-bottomright w3-padding-large"><p>Designed by brzwebsites.com</p></div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </div>
-</div>
-
-</body>
-
-
-
-
-</html>
-
-
--->
 
 <script type="text/javascript">
     /**
@@ -137,12 +58,12 @@ body, html {height: 100%}
             alert(errorMessage);
           }
           console.log(error);
-          document.getElementById('quickstart-sign-in').disabled = false;
+          document.getElementById("btnLogin").disabled = false;
           // [END_EXCLUDE]
         });
         // [END authwithemail]
       }
-      document.getElementById('quickstart-sign-in').disabled = true;
+      document.getElementById("btnLogin").disabled = true;
     }
     /**
      * Handles the sign up button press.
@@ -234,7 +155,7 @@ body, html {height: 100%}
           var providerData = user.providerData;
           // [START_EXCLUDE silent]
           document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
-          document.getElementById('quickstart-sign-in').textContent = 'Sign out';
+          document.getElementById("btnLogin").textContent = 'Sign out';
           document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
           if (!emailVerified) {
             document.getElementById('quickstart-verify-email').disabled = false;
@@ -244,17 +165,17 @@ body, html {height: 100%}
           // User is signed out.
           // [START_EXCLUDE silent]
           document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
-          document.getElementById('quickstart-sign-in').textContent = 'Sign in';
+          document.getElementById("btnLogin").textContent = 'Sign in';
           document.getElementById('quickstart-account-details').textContent = 'null';
           // [END_EXCLUDE]
         }
         // [START_EXCLUDE silent]
-        document.getElementById('quickstart-sign-in').disabled = false;
+        document.getElementById("btnLogin").disabled = false;
         // [END_EXCLUDE]
       });
       // [END authstatelistener]
-      document.getElementById('quickstart-sign-in').addEventListener('click', toggleSignIn, false);
-      document.getElementById('quickstart-sign-up').addEventListener('click', handleSignUp, false);
+      document.getElementById("btnLogin").addEventListener('click', toggleSignIn, false);
+      document.getElementById("btnSignUp").addEventListener('click', handleSignUp, false);
       document.getElementById('quickstart-verify-email').addEventListener('click', sendEmailVerification, false);
       document.getElementById('quickstart-password-reset').addEventListener('click', sendPasswordReset, false);
     }
@@ -262,6 +183,70 @@ body, html {height: 100%}
       initApp();
     };
   </script>
+
+</head>
+
+
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 110%}
+.bgimg-1 {
+    background-image: url('https://github.com/pascArr/cbb/tree/gh-pages/images/Reception_large2.jpeg');
+    
+    background-image: url('../images/Reception_large.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="bgimg-1 w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    CASTLE BLAST BUFFET
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top" style="text-align:center">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Create your account now!</p>
+<div class="container">
+<div class="container" style="text-align:center;">
+  <input id="email" type="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+</div>
+<div class="container" style="text-align:center;">
+    
+    <button id="btnLogin" class="btn btn-action">Log In</button>
+    <button id="btnSignUp" class="btn btn-secondaty">Sign Up</button>
+    <!--button id="btnLogout" class="btn btn-action hide">Log out</button-->
+</div>
+</div>
+
+<div class="container" style="text-align:center">
+<button class="mdl-button mdl-js-button mdl-button--raised" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
+
+<button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Reset Email Password</button>
+
+</div>
+
+</div>
+  
+
+  <div class="w3-display-bottomright w3-padding-large"><p>Designed by brzwebsites.com</p></div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
 </head>
 <body>
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
