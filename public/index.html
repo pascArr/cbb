@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--<link rel="stylesheet" href="../css/styles.css">-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="../cbb/stylesheets/w3.css">
+<link rel="stylesheet" href="../stylesheets/w3.css">
 
 
 <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
@@ -72,7 +72,6 @@
       document.getElementById("btnLogin").disabled = true;
       window.location="home.html"
     }
-
            
     /**
      * Handles the sign up button press.
@@ -152,7 +151,6 @@
       firebase.auth().onAuthStateChanged(function(user) {
         // [START_EXCLUDE silent]
         document.getElementById('quickstart-verify-email').disabled = true;
-
         // [END_EXCLUDE]
         if (user) {
           // User is signed in.
@@ -170,7 +168,6 @@
           document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
           if (!emailVerified) {
             document.getElementById('quickstart-verify-email').disabled = false;
-
           }
           // [END_EXCLUDE]
         } else {
@@ -205,7 +202,7 @@ body, html {height: 110%}
 .bgimg-1 {
     /*background-image: url('https://github.com/pascArr/cbb/tree/gh-pages/images/Reception_large2.jpeg');*/
     
-    background-image: url('../cbb/images/Reception_large.jpeg');
+    background-image: url('../images/Reception_large2.jpeg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -274,7 +271,6 @@ body, html {height: 110%}
 
 
 <!--div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
     <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
       <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
@@ -282,10 +278,8 @@ body, html {height: 110%}
       </div>
     </div>
   </header>
-
   <main class="mdl-layout__content mdl-color--grey-100">
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-
   
       <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
         <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
@@ -293,7 +287,6 @@ body, html {height: 110%}
         </div>
         <div class="mdl-card__supporting-text mdl-color-text--grey-600">
           <p>Enter an email and password below and either sign in to an existing account or sign up</p>
-
           <input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email" placeholder="Email"/>
           &nbsp;&nbsp;&nbsp;
           <input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password" name="password" placeholder="Password"/>
@@ -305,7 +298,6 @@ body, html {height: 110%}
           <button class="mdl-button mdl-js-button mdl-button--raised" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
           &nbsp;&nbsp;&nbsp;
           <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
-
   
           <div class="quickstart-user-details-container">
             Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
@@ -314,7 +306,6 @@ body, html {height: 110%}
           </div>
         </div>
       </div>
-
     </div>
   </main>
 </div>
