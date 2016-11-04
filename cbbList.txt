@@ -1,0 +1,39 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 2C95-1F00
+
+ Directory of C:\dev\cbb-TempHomePage
+
+11/03/2016  08:40 PM    <DIR>          .
+11/03/2016  08:40 PM    <DIR>          ..
+11/03/2016  07:42 PM                55 .firebaserc
+11/03/2016  08:01 PM           125,436 01-cbbtemp-97a27_ERROR.PNG
+11/03/2016  08:03 PM           109,230 02-cbbtemp-97a27_FILE_PATH_ERROR.PNG
+11/03/2016  08:06 PM           155,291 03-cbbtemp-97a27_FILE_PATH_ERROR.PNG
+11/03/2016  07:53 PM           118,272 04-cbbtemp-97a27_STYLESHEET_ERROR.PNG
+11/03/2016  07:55 PM            77,426 05-cbbtemp-97a27_FIREBASE.PNG
+11/03/2016  08:09 PM            53,452 06-cbbtemp-97a27_DOMAIN_OWNER.PNG
+11/03/2016  08:12 PM           216,587 07-cbbtemp-97a27_DOMAIN_VERIFICATION.PNG
+11/03/2016  08:13 PM            91,031 08-cbbtemp-97a27_DOMAIN_VERIFICATION.PNG
+11/03/2016  08:18 PM            32,595 09-cbbtemp-97a27_DOMAIN_VERIFICATION.PNG
+11/03/2016  08:20 PM            19,610 10-cbbtemp-97a27_DOMAIN_VERIFICATION.PNG
+11/03/2016  08:24 PM            62,188 11-cbbtemp-97a27_DOMAIN_VERIFICATION0.PNG
+11/03/2016  06:38 PM             1,678 app.js
+11/03/2016  08:40 PM                 0 cbbList.txt
+11/03/2016  06:38 PM             2,315 cbbTemp-8064931cbf38.json
+11/03/2016  06:38 PM    <DIR>          css
+11/03/2016  06:38 PM                79 database.rules.json
+11/03/2016  07:42 PM               102 firebase.json
+11/03/2016  06:38 PM    <DIR>          fonts
+11/03/2016  06:38 PM            12,451 home.html
+11/03/2016  07:25 PM    <DIR>          images
+11/03/2016  06:38 PM             4,336 indexGIT.html
+11/03/2016  06:38 PM    <DIR>          javascripts
+11/03/2016  06:38 PM    <DIR>          js
+11/03/2016  06:38 PM    <DIR>          node_modules
+11/03/2016  06:38 PM             1,975 params.json
+11/03/2016  07:34 PM    <DIR>          public
+11/03/2016  06:38 PM             2,014 ServiceAcctCredentials.js
+11/03/2016  06:38 PM             2,538 styles.css
+11/03/2016  06:38 PM    <DIR>          stylesheets
+              22 File(s)      1,088,661 bytes
+              10 Dir(s)  601,475,223,552 bytes free
